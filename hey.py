@@ -1,1 +1,1 @@
-hello pytohn
+print("HELLO")
