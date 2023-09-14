@@ -16,5 +16,11 @@ pipeline {
         bat 'java Hello.java'
       }
     }
+    stage ('cpp') {
+      steps {
+        bat 'g++ h1.cpp -o t'
+        bat 't'
+      }
+    }
   }
 }
