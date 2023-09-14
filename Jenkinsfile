@@ -18,7 +18,7 @@ pipeline {
     }
     stage ('cpp') {
       steps {
-        bat 't'
+        bat '15'
       }
     }
   }
