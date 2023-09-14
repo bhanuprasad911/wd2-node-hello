@@ -18,6 +18,7 @@ pipeline {
     }
     stage ('cpp') {
       steps {
+        bat 'g++ 15.cpp -o 15'
         bat '15'
       }
     }
