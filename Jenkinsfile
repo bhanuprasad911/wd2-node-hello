@@ -24,7 +24,7 @@ pipeline {
     }
     stage ("java2") {
       steps {
-        bat 'java palindrome.java'
+        bat 'java palindrome'
       }
     }
   }
