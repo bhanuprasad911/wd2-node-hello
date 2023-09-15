@@ -27,5 +27,10 @@ pipeline {
         bat 'java palindrome.java'
       }
     }
+    stage ("java3") {
+      steps {
+        bat 'java 10.java'
+      }
+    }
   }
 }
